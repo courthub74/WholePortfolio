@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap");
+* {
+  margin: 0;
+}
+* body .container {
+  background-color: #080E2F;
+}
+
+@media screen and (max-width: 539px) {
+  .home_navbar {
+    background-color: #080E2F;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home_navbar .courdevs_logo {
+    margin: 0 0 0 6vw;
+  }
+  .home_navbar .courdevs_logo #courdevs_logo {
+    width: 25vw;
+    height: 25vw;
+  }
+  .home_navbar .hamburger_div {
+    margin: 0 10vw 0 0;
+  }
+  .home_navbar .hamburger_div #hamburger {
+    width: 12vw;
+    height: 11vw;
+  }
+  .home_navbar .nav_desktop {
+    display: none;
+  }
+  #home_section_id .home_section_class {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

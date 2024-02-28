@@ -1,0 +1,93 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Colors
+
+// Dark Blue
+$darkblue: #080E2F;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+// Resume Button Green
+$resumebutton: #507E81;
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+// First Blue
+$firstblue: #58a6ff;
+
+// WHOLE PAGE
+* {
+    margin: 0;
+    body {
+        .container {
+            background-color: $darkblue;
+        }
+    }
+}
+
+
+// ALL THE BREAKPOINTS
+
+// < 539px
+@media screen and (max-width: 539px) {
+    // HOME NAVBAR
+    .home_navbar {
+        background-color: $darkblue;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .courdevs_logo {
+            margin: 0 0 0 6vw;
+            #courdevs_logo {
+                width: 25vw;
+                height: 25vw;
+            }
+        }
+        .hamburger_div {
+            margin: 0 10vw 0 0;
+            #hamburger {
+                width: 12vw;
+                height: 11vw;
+            }
+        }
+        .nav_desktop {
+            display: none;
+        }
+    }
+    // HOME PAGE
+    #home_section_id {
+        .home_section_class {
+            display: none;
+        }
+    }
+}
+
+// 540px - 600px
+
+// 601px - 767px
+
+// 768px - 819px
+
+// 820px - 911px
+
+// 912px - 1023px
+
+// 1024px - 1179px
+
+// 1180px - 1200px
+
+// 1201px - 1279px
+
+// 1280px - 1300px
+
+// 1301px - 1336px
+
+// 1337px - 1367px
+
+// 1368px
