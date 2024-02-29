@@ -474,7 +474,7 @@
     text-decoration: none;
   }
 }
-@media screen and (min-width: 401px) and (max-width: 539px) {
+@media screen and (min-width: 401px) and (max-width: 600px) {
   .home_navbar {
     background-color: #080E2F;
     height: 15vh;
@@ -588,6 +588,123 @@
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  .home_navbar {
+    background-color: #080E2F;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home_navbar .courdevs_logo {
+    margin: 9vh 0 0 8vw;
+  }
+  .home_navbar .courdevs_logo #courdevs_logo {
+    width: 15vw;
+    height: 15vw;
+  }
+  .home_navbar .hamburger_div {
+    margin: 2vh 11vw 0 0;
+  }
+  .home_navbar .hamburger_div button {
+    background-color: #080E2F;
+    border: none;
+  }
+  .home_navbar .hamburger_div button #hamburger {
+    width: 7vw;
+    height: 6vw;
+  }
+  .home_navbar .nav_desktop {
+    display: none;
+  }
+  #home_section_id .home_section_class {
+    background-color: #080E2F;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #home_section_id .home_section_class .home_section_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    margin: -17vh -8vw 0 0;
+  }
+  #home_section_id .home_section_class .home_section_content .back_head_shot {
+    width: 31vw;
+    height: 31vw;
+    background-color: #36395D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #home_section_id .home_section_class .home_section_content .back_head_shot .home_headshot {
+    width: 28vw;
+    height: 28vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080E2F;
+  }
+  #home_section_id .home_section_class .home_section_content .back_head_shot .home_headshot #headshot {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 6vh;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .home_name {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .name_and_title .job_description {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    background-color: #36395D;
+    color: #00C6C3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.8ch;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
+    border: 1px solid #36395D;
+    border-radius: 5px;
+    border-radius: 45px;
+    background-color: #36395D;
+    padding: 1ch 7ch;
+  }
+  #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
     text-decoration: none;
   }
 }/*# sourceMappingURL=style.css.map */
