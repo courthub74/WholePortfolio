@@ -846,7 +846,140 @@ $firstblue: #58a6ff;
     }
 }
 
-// 768px - 819px
+// 768px - 819px IPad Mini
+@media screen and (min-width: 768px) and (max-width: 819px) {
+    // HOME NAVBAR
+    .home_navbar {
+        background-color: $darkblue;
+        // background-color: #00313E;
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .courdevs_logo {
+            margin: 4vh 0 0 8vw;
+            #courdevs_logo {
+                width: 18vw;
+                height: 18vw;
+            }
+        }
+        .hamburger_div {
+            margin: 2vh 11vw 0 0;
+            button {
+                background-color: $darkblue;
+                border: none;
+                #hamburger {
+                    width: 8vw;
+                    height: 7vw;
+                }
+            }
+        }
+        .nav_desktop {
+            display: none;
+        }
+    }
+    // HOME PAGE
+    #home_section_id {
+        .home_section_class {
+            background-color: $darkblue;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .home_section_content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                // background-color: #00C6C3;
+                gap: 5vw;
+                margin: -9vh 0 0 0;
+                .back_head_shot {
+                    width: 42vw;
+                    height: 42vw;
+                    background-color: $portfolios;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .home_headshot {
+                        width: 38vw;
+                        height: 38vw;
+                        border-radius: 50%;
+                        background-color: $darkblue;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        #headshot {
+                            height: 34vw;
+                            width: 34vw;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+                .home_section_words {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 6vh;
+                    // NAME AND TITLE
+                    .name_and_title {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1vh;
+                        // NAME
+                        .home_name {
+                            color: white;
+                            // color: rebeccapurple;
+                            font-family: 'Inter', sans-serif;
+                            font-size: clamp(1rem, 2.5rem, 3rem);
+                            font-weight: bold;
+                        }
+                        // JOB TITLE
+                        .job_description {
+                            border: 1px solid $portfolios;
+                            border-radius: 5px;
+                            background-color: $portfolios;
+                            color: $jobdescription;
+                            font-family: 'Inter', sans-serif;
+                            font-size: clamp(1rem, 1.8rem, 2rem);
+                            text-align: center;
+                            padding: .8ch;
+                        }
+                    }
+                    // SLOGAN
+                    .home_slogan {
+                        p {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            font-size: clamp(1rem, 1.5rem, 1.5rem);
+                            // font-size: 4vw;
+                        }
+                    }
+                    // LEARN MORE
+                    .learn_more {
+                        border: 1px solid $portfolios;
+                        border-radius: 5px;
+                        border-radius: 45px;
+                        background-color: $portfolios;
+                        padding: 2ch 10ch;
+                        a {
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: clamp(.5rem, 1.3rem, 2rem);
+                            // font-weight: bold;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 // 820px - 911px
 
